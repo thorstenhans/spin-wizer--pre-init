@@ -1,0 +1,21 @@
+#:schema https://schemas.spinframework.dev/spin/manifest-v2/latest.json
+
+spin_manifest_version = 2
+
+[application]
+name = "country-lookup"
+version = "0.1.0"
+authors = ["Thorsten Hans <thorsten.hans@gmail.com>"]
+description = ""
+
+[[trigger.http]]
+route = "/..."
+component = "country-lookup"
+
+[component.country-lookup]
+source = "target/wasm32-wasip2/release/country_lookup_init.wasm"
+allowed_outbound_hosts = []
+
+[component.country-lookup.build]
+command = "./build.sh"
+watch = ["src/**/*.rs", "Cargo.toml"]

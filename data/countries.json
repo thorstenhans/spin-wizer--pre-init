@@ -1,0 +1,52 @@
+[
+  {
+    "name": "United States",
+    "code": "US",
+    "phone_prefix": "+1"
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "phone_prefix": "+49"
+  },
+  {
+    "name": "Netherlands",
+    "code": "NL",
+    "phone_prefix": "+31"
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "phone_prefix": "+44"
+  },
+  {
+    "name": "Japan",
+    "code": "JP",
+    "phone_prefix": "+81"
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "phone_prefix": "+61"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "phone_prefix": "+55"
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "phone_prefix": "+91"
+  },
+  {
+    "name": "France",
+    "code": "FR",
+    "phone_prefix": "+33"
+  },
+  {
+    "name": "South Africa",
+    "code": "ZA",
+    "phone_prefix": "+27"
+  }
+]
